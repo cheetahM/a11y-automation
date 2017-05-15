@@ -1,0 +1,24 @@
+{
+  "name": "a11y-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheetahM/a11y-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheetahM/a11y-automation/issues"
+  },
+  "homepage": "https://github.com/cheetahM/a11y-automation#readme",
+  "devDependencies": {
+    "phantomjs-prebuilt": "^2.1.14",
+    "selenium-webdriver": "^3.4.0"
+  }
+}
