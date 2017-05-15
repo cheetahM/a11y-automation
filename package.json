@@ -20,6 +20,8 @@
   "devDependencies": {
     "axe-core": "^2.2.0",
     "axe-webdriverjs": "^1.1.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
     "phantomjs-prebuilt": "^2.1.14",
     "selenium-webdriver": "^3.4.0"
   }
