@@ -23,6 +23,9 @@
     "chai": "^3.5.0",
     "grunt": "^1.0.1",
     "grunt-a11y": "^0.1.4",
+    "karma": "^1.7.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
     "mocha": "^3.4.1",
     "phantomjs-prebuilt": "^2.1.14",
     "selenium-webdriver": "^3.4.0"
