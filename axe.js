@@ -3,15 +3,15 @@ const webDriver = require("selenium-webdriver");
 
 // create a PhantomJS WebDriver instance
 const driver = new webDriver.Builder()
-    .forBrowser('phantomjs')
-    .build();
+ .forBrowser('firefox')
+ .build();
 
 // run the tests and output the results in the console
 driver
-    .get("http://sitepoint.com")
-    .then(() => {
-        axeBuilder(driver)
-            .analyze((results) => {
-                console.log(results);
-            });
-    });     
+ .get("https://vbox132.secure.checkout.visa.com/")
+ .then(() => {
+    axeBuilder(driver)
+     .analyze((results) => {
+        console.log("Results are: ", results);
+    });
+});

@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         a11y: {
             dev: {
                 options: {
-                    urls: ["www.twitter.com"]
+                    urls: ["https://vbox132.secure.checkout.visa.com/"]
                 }
             }
         }

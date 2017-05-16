@@ -10,7 +10,7 @@ describe('aXe test', () => {
     it('should check the main page of Consumer',  () => {
         // a Mocha test case can be treated as asynchronous
         // by returning a promise
-        return driver.get('http://sitepoint.com/')
+        return driver.get('https://vbox132.secure.checkout.visa.com/')
             .then(() => {
                 return new Promise((resolve) => {
                     axeBuilder(driver).analyze((results)=>{
@@ -24,5 +24,5 @@ describe('aXe test', () => {
     })
     // The test might take some 5-10 seconds to execute,
     // so we'lldisable the timeout
-    .timeout(0);
+    .timeout(5000);
 });

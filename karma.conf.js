@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Mon May 15 2017 15:05:05 GMT-0700 (PDT)
+// Generated on Tue May 16 2017 13:16:33 GMT-0700 (PDT)
 
 module.exports = function(config) {
   config.set({
@@ -21,6 +21,7 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
+      'no'
     ],
 
 
