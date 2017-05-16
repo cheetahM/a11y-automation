@@ -21,7 +21,7 @@
     "axe-core": "^2.2.0",
     "axe-webdriverjs": "^1.1.0",
     "chai": "^3.5.0",
-    "grunt": "^1.0.1",
+    "grunt": ">=0.4.5 <1.0.0",
     "grunt-a11y": "^0.1.4",
     "jasmine-core": "^2.6.1",
     "karma": "^1.7.0",
