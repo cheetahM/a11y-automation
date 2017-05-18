@@ -23,6 +23,7 @@
     "chai": "^3.5.0",
     "grunt": ">=0.4.5 <1.0.0",
     "grunt-a11y": "^0.1.4",
+    "grunt-html-sniffer": "^1.0.0",
     "jasmine-core": "^2.6.1",
     "karma": "^1.7.0",
     "karma-chrome-launcher": "^2.1.1",
